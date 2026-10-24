@@ -1,0 +1,48 @@
+name: app_template
+description: "Flutter starter: Dio + GetX + MVC, device headers, token refresh and NID registration."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management, routing, dependency injection
+  get: ^4.7.3
+
+  # Networking
+  dio: ^5.9.2
+  crypto: ^3.0.7
+  jwt_decoder: ^2.0.1
+
+  # Storage
+  shared_preferences: ^2.5.5
+  flutter_secure_storage: ^11.2.0
+
+  # Device identity headers
+  android_id: ^0.5.2+1
+  device_info_plus: ^13.2.0
+  package_info_plus: ^10.2.1
+  flutter_timezone: ^5.1.0
+
+  # Push notifications (NID)
+  firebase_core: ^4.8.0
+  firebase_messaging: ^16.2.1
+
+  # UI
+  flutter_easyloading: ^3.0.5
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
